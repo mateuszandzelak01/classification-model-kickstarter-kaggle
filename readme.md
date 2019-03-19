@@ -1,6 +1,6 @@
-`Machine Learning Project - KICKSTARTER DATASET`
+## Machine Learning Project - KICKSTARTER DATASET
 
-**1. Preprocessing:**
+#### 1. Preprocessing
 
     a. Ogólne spojrzenie na dane, co się w nich znajduje (research)
         - Kwantyle, odstające wartości,
@@ -14,7 +14,7 @@
         - Usuwanie outliers
     c. Podział datasetu na trening + validacja + test (metoda crossvalidation + decision)
     
-**2. Wybór modelu**
+#### 2. Wybór modelu
 
     a. Linear regression
     b. Logistic regression
@@ -25,10 +25,10 @@
     g. Bayes
     h. Xgboost
     
-**3. Wybor:**
+#### 3. Wybór featur'ów
 
     a. Które zmienne wziąć pod uwagę
     b. Jakie parametry modelu należy uwzglednić
     c. Zastosowanie parametrów które umożliwią wybór i porównanie modeli (MSE itd.)
     
-**4. Final model + performance na datasecie testowym.**
+#### 4. Final model + performance na datasecie testowym
