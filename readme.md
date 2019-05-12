@@ -9,8 +9,6 @@
         - Pomyłki w danych (powielone rekordy)
     b. Data cleaning – doprowadzenie do dobrej formy
         - Normalizacja i standardyzacja danych 
-        (m.in. klasyfikowanie ‘strings’ w decision trees jest latwiejsze niż w linear regression, gdzie należy to zakodować)
-        - Kodowanie danych tekstowych jeśli należy
         - Usuwanie outliers
     c. Podział datasetu na trening + validacja + test (metoda crossvalidation + decision)
     
