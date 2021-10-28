@@ -1,18 +1,18 @@
-## Machine Learning Project - KICKSTARTER DATASET
+# Machine Learning Project - KICKSTARTER DATASET
 
-#### 1. Preprocessing
+#### 1. Preprocessing - EDA (Exploratory data analysis)
 
-    a. Ogólne spojrzenie na dane, co się w nich znajduje (research)
-        - Kwantyle, odstające wartości,
-        - Shapy,
-        - Missing values,
-        - Pomyłki w danych (powielone rekordy)
-    b. Data cleaning – doprowadzenie do dobrej formy
-        - Normalizacja i standardyzacja danych 
-        - Usuwanie outliers
-    c. Podział datasetu na trening + validacja + test (metoda crossvalidation + decision)
+       a. General view of the data, what is in it (research)
+           - Quantiles and outliers,
+           - Shapes,
+           - Missing values,
+           - Data errors (duplicate records)
+       b. Data cleaning
+           - Data normalization and standardization
+           - Removal of outliers
+       c. Dividing the dataset into training + validation + test (cross validation + decision method)
     
-#### 2. Wybór modelu
+#### 2. Model selection
 
     a. Linear regression
     b. Logistic regression
@@ -23,10 +23,13 @@
     g. Bayes
     h. Xgboost
     
-#### 3. Wybór featur'ów
+#### 3. Features selection
 
-    a. Które zmienne wziąć pod uwagę
-    b. Jakie parametry modelu należy uwzglednić
-    c. Zastosowanie parametrów które umożliwią wybór i porównanie modeli (MSE itd.)
+    a. Which variables are important
+    b. What parameters should be taken into final model
+    c. Use of parameters that will enable the selection and comparison of models (MSE etc.)
     
-#### 4. Final model + performance na datasecie testowym
+#### 4. Final model and performance on test dataset
+
+# Bag of Words
+![This is an image](https://github.com/mateuszandzelak01/classification-model-kickstarter-kaggle/blob/master/bag_of_words.png)
